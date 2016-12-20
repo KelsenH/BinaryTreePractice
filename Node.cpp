@@ -33,11 +33,13 @@ class Node {
       return right;
     } //end getRightNode
 
-    void setLeftNode (Node left) {
+    void setLeftNode (int nodeNum) {
+      Node left = new Node (nodeNum);
       this.left = left;
     } //end setLeftNode
 
-    void setRightNode (Node right) {
+    void setRightNode (int nodeNum) {
+      Node right = new Node (nodeNum);
       this.right = right;
     } //end setRightNode
 
